@@ -1,47 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-18T02:57:52-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Éderson D’Martin Costa, PhD</title><subtitle>Éderson D&apos;Martin Costa é Doutor em Química  com pós-doutorado em Química Teórica/Computacional e  Modelagem Estatística/Estatística Computacional. </subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/11/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-11-17T21:14:14-03:00</published><updated>2024-11-17T21:14:14-03:00</updated><id>http://localhost:4000/jekyll/update/2024/11/17/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/11/17/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-18T11:55:31-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Éderson D’Martin Costa, PhD</title><subtitle>Éderson D&apos;Martin Costa é Doutor em Química  com pós-doutorado em Química Teórica/Computacional e  Modelagem Estatística/Estatística Computacional. </subtitle><entry><title type="html">Fórmula para Quantificação de Impurezas - HPLC</title><link href="http://localhost:4000/jekyll/update/2024/11/18/2024-11-18-impurezas-hplc.html" rel="alternate" type="text/html" title="Fórmula para Quantificação de Impurezas - HPLC" /><published>2024-11-18T11:52:00-03:00</published><updated>2024-11-18T11:52:00-03:00</updated><id>http://localhost:4000/jekyll/update/2024/11/18/2024-11-18-impurezas-hplc</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/11/18/2024-11-18-impurezas-hplc.html"><![CDATA[<p><img src="/images/impurities.png" alt="razao de equacoes" /></p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Fórmula para Quantificação de Impurezas - HPLC</title><link href="http://localhost:4000/jekyll/update/2024/11/17/impurezas_HPLC.html" rel="alternate" type="text/html" title="Fórmula para Quantificação de Impurezas - HPLC" /><published>2024-11-17T21:14:14-03:00</published><updated>2024-11-17T21:14:14-03:00</updated><id>http://localhost:4000/jekyll/update/2024/11/17/impurezas_HPLC</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/11/17/impurezas_HPLC.html"><![CDATA[<p>Hoje vamos deduzir as expressões para quantificação de impurezas em Produto Acabado e Matéria-Prima.</p>
+<p>Hoje vamos deduzir as expressões para quantificação de impurezas em Produto Acabado e Insumo Farmacêutico Ativo.</p>
 
 <p>A fórmula ficará dependente da concentração de um padrão para o ativo e do fator resposta relativo (\(F\))</p>
-
-\[a+b+c\]
 
 <p>Existem algumas vantagens em quantificar as impurezas utilizando o fator resposta relativo, por exemplo:</p>
 
 <ul>
-  <li>Não é necessário possuir os padrões de impurezas, uma vez que se conheça o F e o método esteja validado;</li>
+  <li>Não é necessário possuir os padrões de impurezas, uma vez que se conheça o \(F\) e o método esteja validado;</li>
   <li>Diminuição de custos com impurezas;</li>
   <li>Útil quando a impureza é pouco estável em solução.</li>
 </ul>
 
-<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<h1 id="concentração-de-impurezas">Concentração de impurezas</h1>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>Cumprindo-se a Lei de Lambert-beer, a área do analíto é então proporcional a sua concentração.</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Logo, a área de um padrão, \(A_{pd}\), se relacionará com sua concentração, \(C_{pd}\), por meio do fator resposta, \(k_{pd}\), como</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+\[\color{blue}{
+A_{pd} = k_{pd} C_{pd}
+} \tag{1}\]
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>Também, a área de uma impureza, \(A_{imp}\), se relacionará com sua concentração, \(C_{imp}\), por meio do fator resposta, \(k_{imp}\), como</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+\[\color{red}{
+A_{imp} = k_{imp} C_{imp}
+} \tag{2}\]
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Hoje vamos deduzir as expressões para quantificação de impurezas em Produto Acabado e Matéria-Prima.]]></summary></entry></feed>
+<p>Dividindo a Equação (2) pela (1), resulta,</p>
+
+\[{
+\frac{\color{red}{A_{imp}}}{\color{blue}{A_{pd}}} = \underbrace{\frac{\color{red}{k_{imp}}}{\color{blue}{k_{pd}}}}_{F}
+ \frac{\color{red}{C_{imp}}}{\color{blue}{C_{pd}}}
+\Rightarrow 
+{
+\frac{\color{red}{A_{imp}}}{\color{blue}{A_{pd}}} = {F} \frac{\color{red}{C_{imp}}}{\color{blue}{C_{pd}}}
+}
+} \tag{3}\]
+
+<p>em que, \(F\) é o fator resposta relativo.</p>
+
+<p>Isolando \(C_{imp}\) em</p>
+
+\[{
+\frac{\color{red}{A_{imp}}}{\color{blue}{A_{pd}}} = {F} \frac{\color{red}{C_{imp}}}{\color{blue}{C_{pd}}} \tag{4}
+}\]
+
+<p>resulta</p>
+
+\[{
+\color{red}{C_{imp}} = \color{blue}{C_{pd}} \frac{\color{red}{A_{imp}}}{\color{blue}{A_{pd}}}
+\frac{1}{F} \tag{5}
+}\]
+
+<p>que é a expressão para concentração de impurezas na amostra.</p>
+
+<h1 id="impurezas-para-produto-acabado">Impurezas para Produto Acabado</h1>
+
+<p>Para um Produto Acabado pode se expressar a quantidade de impurezas como um percentual em relação a quantidade de ativo nominal na tomada de ensaio.</p>
+
+<p>Desta forma, se define,</p>
+
+\[{
+Imp(\%) = 100 \times \frac{m_{imp}}{m_{ativ}^{nom}} =  100 \times \frac{C_{imp}}{C_{ativ}^{nom}} \tag{6} 
+}\]
+
+<p>Substituindo a Equação (5) na (6) obtém-se a equação desejada,</p>
+
+\[\boxed
+{
+Imp(\%) = 100 \times \frac{\color{blue}{C_{pd}}}{C_{ativ}^{nom}} \frac{\color{red}{A_{imp}}}{\color{blue}{A_{pd}}} \frac{1}{F}
+}\tag{7}\]
+
+<h1 id="impurezas-para-a-ifa">Impurezas para a IFA</h1>
+
+<p>Para um Insumo Farmacêutico Ativo (IFA) pode se expressar a quantidade de impurezas como um percentual em relação a massa tomada do IFA.</p>
+
+<p>Desta forma, se define,</p>
+
+\[{
+Imp(\%) = 100 \times \frac{m_{imp}}{m_{IFA}} =  100 \times \frac{C_{imp}}{C_{IFA}} \tag{8}
+}\]
+
+<p>em que \(m_{IFA}\) é a massa de IFA tomada (tal qual).</p>
+
+<p>Substituindo a Equação (5) na (8) obtém-se a equação desejada,</p>
+
+\[\boxed
+{
+Imp(\%) = 100 \times \frac{\color{blue}{C_{pd}}}{C_{IFA}} \frac{\color{red}{A_{imp}}}{\color{blue}{A_{pd}}} \frac{1}{F} 
+}\tag{9}\]
+
+<h1 id="conclusão">Conclusão</h1>
+
+<ul>
+  <li>As expressões para quantificação de impurezas em Produto Acabado e Matéria-Prima foram deduzidas (Equações 7 e 9).</li>
+  <li>Os percentuais de impurezas foram claramente definidos nas Equações (6) e (8).</li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[]]></summary></entry></feed>
