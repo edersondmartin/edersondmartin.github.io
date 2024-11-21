@@ -8,8 +8,8 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Probabilidade de Resultados Fora da Especificação a partir do Índice de Capacidade do Processo" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Olá a todos, hoje vamos encontrar um modo de obter a probabilidade de se obter resultados fora da especificação (OOS) a partir do índice de capacidade do processo \(C_p\)." />
-<meta property="og:description" content="Olá a todos, hoje vamos encontrar um modo de obter a probabilidade de se obter resultados fora da especificação (OOS) a partir do índice de capacidade do processo \(C_p\)." />
+<meta name="description" content="Éderson D’Martin Costa é Doutor em Química com pós-doutorado em Química Teórica/Computacional e Modelagem Estatística/Estatística Computacional." />
+<meta property="og:description" content="Éderson D’Martin Costa é Doutor em Química com pós-doutorado em Química Teórica/Computacional e Modelagem Estatística/Estatística Computacional." />
 <link rel="canonical" href="http://localhost:4000/2024/11/20/2024-11-20-prob-oos.html" />
 <meta property="og:url" content="http://localhost:4000/2024/11/20/2024-11-20-prob-oos.html" />
 <meta property="og:site_name" content="Éderson D’Martin Costa, PhD" />
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Probabilidade de Resultados Fora da Especificação a partir do Índice de Capacidade do Processo" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-11-20T18:06:00-03:00","datePublished":"2024-11-20T18:06:00-03:00","description":"Olá a todos, hoje vamos encontrar um modo de obter a probabilidade de se obter resultados fora da especificação (OOS) a partir do índice de capacidade do processo \\(C_p\\).","headline":"Probabilidade de Resultados Fora da Especificação a partir do Índice de Capacidade do Processo","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/11/20/2024-11-20-prob-oos.html"},"url":"http://localhost:4000/2024/11/20/2024-11-20-prob-oos.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-11-20T18:06:00-03:00","datePublished":"2024-11-20T18:06:00-03:00","description":"Éderson D’Martin Costa é Doutor em Química com pós-doutorado em Química Teórica/Computacional e Modelagem Estatística/Estatística Computacional.","headline":"Probabilidade de Resultados Fora da Especificação a partir do Índice de Capacidade do Processo","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/11/20/2024-11-20-prob-oos.html"},"url":"http://localhost:4000/2024/11/20/2024-11-20-prob-oos.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Éderson D&apos;Martin Costa, PhD" /><!-- Eu adicionei isso -->
   
@@ -58,7 +58,9 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>Olá a todos, hoje vamos encontrar um modo de obter a probabilidade de se obter resultados fora da especificação (OOS) a partir do índice de capacidade do processo \(C_p\).</p>
+    <p><img src="/images/capacidade.png" alt="razao de equacoes" /></p>
+
+<p>Olá a todos, hoje vamos encontrar um modo de obter a probabilidade de se obter resultados fora da especificação (OOS) a partir do índice de capacidade do processo \(C_p\).</p>
 
 <p><strong>Vamos lá!</strong></p>
 
@@ -91,7 +93,7 @@ a probabilidade de se obter resultados fora da especificação será dada por,</
 
 <p>Para calcular \(Prob(X&lt;LIE)\) usamos a variável padronizada \(z_{LIE} = \frac{LIE-\mu}{\sigma}\), assim:</p>
 
-\[Prob(X&lt;LIE) = Prob(Z&lt;z) = P\left(Z&lt;\frac{LIE-\mu}{\sigma}\right) = \Phi\left(\frac{LIE-\mu}{\sigma}\right) \tag{5}\]
+\[Prob(X&lt;LIE) = Prob(Z&lt;z_{LIE}) \\ = P\left(Z&lt;\frac{LIE-\mu}{\sigma}\right) = \Phi\left(\frac{LIE-\mu}{\sigma}\right) \tag{5}\]
 
 <p>em que \(Z = \frac{X-\mu}{\sigma} \sim N(0,1)\) e \(\Phi\) representa a função de distribuição acumulada da normal padrão.</p>
 
